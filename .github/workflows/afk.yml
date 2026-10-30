@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Instalar dependencias de Mineflayer
-        run: npm install mineflayer
+      - - name: Instalar dependencias de Mineflayer
+  run: npm install mineflayer@4.39.0
 
       - name: Ejecutar script del NPC
         run: node bot.js
