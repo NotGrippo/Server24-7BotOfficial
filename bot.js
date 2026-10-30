@@ -5,7 +5,7 @@ function createBot() {
     host: 'temudonutsmp-s1.aternos.me',
     port: 20420,
     username: 'BotOfficial',
-    version: false
+    version: '1.21.11'
   });
 
   bot.on('login', (subtogrippo) => {
