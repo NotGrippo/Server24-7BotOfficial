@@ -4,11 +4,11 @@ function createBot() {
   const bot = mineflayer.createBot({
     host: 'temudonutsmp-s1.aternos.me',
     port: 20420,
-    username: 'BotOffici',
+    username: 'BotOfficial',
     version: false
   });
 
-  bot.on('login', () => {
+  bot.on('login', (subtogrippo) => {
     console.log('[NPC] Conexión establecida con el servidor de Minecraft.');
   });
 
